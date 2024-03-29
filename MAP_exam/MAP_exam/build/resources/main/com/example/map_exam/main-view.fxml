@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.map_exam.controller.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Pane layoutY="1.0" prefHeight="400.0" prefWidth="601.0">
+            <children>
+                <Button fx:id="loginButton" onAction="#handleLogin" layoutX="275.0" layoutY="308.0" mnemonicParsing="false" text="Login" />
+                <TextField fx:id="usernameTextField" layoutX="223.0" layoutY="163.0" />
+                <Label layoutX="223.0" layoutY="146.0" text="username" />
+            </children>
+        </Pane>
+    </children>
+
+
+</AnchorPane>
